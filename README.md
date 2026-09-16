@@ -1,8 +1,4 @@
-# Enhancing Daytime-to-Nighttime Robustness of YOLOv8 Object Detection Using Knowledge Distillation
-
-Undergraduate thesis project (BINUS University, Computer Science).
-
-**Authors:** Yoseph Oktavianus Yusanto, William Hartanto, Kezia Meilany Tandapai (supervised by Anderies)
+# Distilling the Night: Narrowing the Day-to-Night Gap of Lightweight YOLOv8 with Knowledge Distillation
 
 ## Abstract
 
@@ -56,8 +52,6 @@ Each model directory typically contains:
 | Feature distillation weight γ               | 0.03                                |
 | Classification / DFL / CWD temperature      | 4.0 / 2.0 / 4.0                     |
 | Feature levels                              | Neck layers 15, 18, 21 (P3, P4, P5) |
-
-Full details are in the paper (`Skripsi_Final.pdf`).
 
 ## Pipeline Overview (not a runnable checkout)
 
