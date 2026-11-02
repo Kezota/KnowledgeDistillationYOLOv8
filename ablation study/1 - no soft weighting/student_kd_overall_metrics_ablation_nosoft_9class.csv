@@ -1,0 +1,3 @@
+model_name,split,loss,precision,recall,f1,map50,map50_95
+Student YOLOv8s KD-NoSoftWeight,daytime,2.840466495513916,0.6425,0.4653,0.5368,0.4973,0.2833
+Student YOLOv8s KD-NoSoftWeight,night,3.2636848163604735,0.5894,0.4615,0.5154,0.4628,0.2477
