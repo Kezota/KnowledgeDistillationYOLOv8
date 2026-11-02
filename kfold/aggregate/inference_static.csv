@@ -1,0 +1,4 @@
+model,arch,params,gflops,size_fp32_mib,size_fp16_mib,ckpt_file,ckpt_sha256_12,ckpt_epoch,ckpt_val_loss,ckpt_val_map50,ckpt_val_map50_95
+Teacher YOLOv8-L,yolov8l.yaml,43636779,165.4374912,166.8121919631958,83.49303913116455,/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook1-2-resume-teacher-ft/kd_output/best_teacher_finetuned_9class.pt,d65077e0d5f1,23.0,2.9535903701782225,0.5481,0.30945
+Student Baseline YOLOv8-S,yolov8s.yaml,11139083,28.664166400000003,42.672024726867676,21.387722969055176,/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook2-2-resume-student-baseli/kd_output/best_student_baseline_9class.pt,babe22bc80cb,24.0,3.044409691810608,0.49005,0.27475000000000005
+Student KD YOLOv8-S,yolov8s.yaml,11139083,28.664166400000003,42.672024726867676,21.387722969055176,/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook3-2-resume-kd/kd_output/best_student_kd_9class.pt,65ab7b946b01,25.0,3.0589490661621097,0.495,0.2793

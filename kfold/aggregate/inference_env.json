@@ -1,0 +1,50 @@
+{
+  "utc_time": "2026-11-01 15:18:05 UTC",
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "gpu_count": 2,
+  "nvidia_smi_start": "Tesla T4, 580.178.04, 300 MHz, 1590 MHz, 46, 10.76 W\nTesla T4, 580.178.04, 300 MHz, 1590 MHz, 54, 11.05 W",
+  "nvidia_smi_end": "Tesla T4, 580.178.04, 1590 MHz, 1590 MHz, 77, 43.74 W\nTesla T4, 580.178.04, 300 MHz, 1590 MHz, 40, 9.57 W",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900,
+  "ultralytics": "8.1.47",
+  "python": "3.13.15",
+  "config": {
+    "img_size": 640,
+    "precisions": [
+      "fp32",
+      "fp16"
+    ],
+    "batch_sizes": [
+      1
+    ],
+    "n_warmup": 50,
+    "n_iter": 300,
+    "n_rounds": 3,
+    "fuse": false,
+    "conf_thres": 0.25,
+    "iou_thres": 0.7,
+    "n_images_per_condition": 100
+  },
+  "checkpoints": {
+    "Teacher YOLOv8-L": {
+      "file": "/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook1-2-resume-teacher-ft/kd_output/best_teacher_finetuned_9class.pt",
+      "sha256_12": "d65077e0d5f1",
+      "epoch": 23.0,
+      "val_map50": 0.5481
+    },
+    "Student Baseline YOLOv8-S": {
+      "file": "/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook2-2-resume-student-baseli/kd_output/best_student_baseline_9class.pt",
+      "sha256_12": "babe22bc80cb",
+      "epoch": 24.0,
+      "val_map50": 0.49005
+    },
+    "Student KD YOLOv8-S": {
+      "file": "/kaggle/input/notebooks/yosephoktavianus/output-notebooks-notebook3-2-resume-kd/kd_output/best_student_kd_9class.pt",
+      "sha256_12": "65ab7b946b01",
+      "epoch": 25.0,
+      "val_map50": 0.495
+    }
+  }
+}
