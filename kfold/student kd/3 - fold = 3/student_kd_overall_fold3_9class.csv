@@ -1,3 +1,0 @@
-model_name,split,loss,precision,recall,f1,map50,map50_95
-Student YOLOv8s KD v3 fold3,daytime,2.8193744354441685,0.6736,0.4648,0.5466,0.5153,0.2927
-Student YOLOv8s KD v3 fold3,night,3.251017837524414,0.6365,0.4573,0.5278,0.4948,0.2738

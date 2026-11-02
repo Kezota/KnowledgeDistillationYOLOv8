@@ -1,3 +1,0 @@
-model_name,split,loss,precision,recall,f1,map50,map50_95
-Student YOLOv8s Baseline fold2,daytime,2.8303055593810105,0.6549,0.4493,0.5294,0.4906,0.2794
-Student YOLOv8s Baseline fold2,night,3.2422544797261557,0.578,0.4425,0.4964,0.4586,0.247
